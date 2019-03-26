@@ -76,7 +76,7 @@ html, body{
     border: none;
     width: 200px;
     height: 46px;
-    border-radius: 2px;
+    border-radius: 8px;
     font-weight: 100;
     margin-top: 20px;
 }
@@ -98,11 +98,32 @@ html, body{
     font-size: 14;
 }
 
+/* pricing cards */
+
 .card{
+    transition: all 0.2s;
     border: none;
     border-radius: 10px;
-    min-height: 400px;
+    min-height: 500px;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
+
+.card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+    min-height: 40px;
+    display: table;
+    background-color: transparent;
+    border: none;
+}
+.card .btn-primary{
+    margin-top: 50px;
+}
+
 
 /*---Firefox Bug Fix --*/
 .carousel-item {

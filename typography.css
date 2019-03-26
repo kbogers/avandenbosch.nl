@@ -26,3 +26,21 @@ p{
     font-weight: 100;
     font-size: 16px;
 }
+
+.card-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #959595;
+    margin-top: 50px;
+}
+
+.card-price{
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    color: #272727;
+    padding-top: 50px;
+}
+
+.BTW{
+    color: #959595;
+}
