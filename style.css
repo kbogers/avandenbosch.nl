@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #151515;
+  }
+
+/*typography*/
+h1{
+    font-family: 'Volkhov', serif;
+    font-weight: 900;
+    font-size: 64px;
+}
+h2{
+    font-family: 'Volkhov', serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+.bg-purple{
+    background-color: #1a173d;
+  }
+
+.coverbox{
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    min-height: 600px;
+}
+
+.coverimg{
+    min-height: 600px;
+    min-width: 929px;
+}
+
+.bg{
+  background-image: url("http://avandenbosch.nl/wp-content/uploads/2016/07/2016-06-06-14.40.04-1.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover-title{
+    padding-top: 3em;
+    text-shadow: 1px 1px 20px #151515
+}
+
+.cover-subtitle{
+    padding-top: .5em;
+    padding-bottom: 1em;
+    text-shadow: 1px 1px 20px #151515
+}
+.carousel-caption h3{
+    font-weight: 100;
+    padding-bottom: 1em;
+  }
+
+.row{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.padding{
+    padding: 80px 20px 100px 20px;
+}
+
+.padding-top{
+    padding-top: 1em;
+}
+.vertical-center{
+    display: flex;
+    align-items: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    padding: .8em;
+}
+.nav-item{
+    padding-left: 2rem;
+    font-size: 18px;
+}
+.btn-primary{
+    background-color: #373184;
+    border: none;
+    width: 200px;
+    height: 46px;
+    border-radius: 2px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+.btn-primary:hover{
+    background-color: #6e6aa3;
+}
+.navbar-toggler{
+    border: none;
+}
+.logo{
+    height: 50px;
+}
+.fa-file-alt, .fa-money-bill-alt, .fa-user, .fa-edit{
+    font-size: 6em;
+    padding-bottom: 30px;
+}
+.footer{
+    background-color: #151515;
+    font-size: 14;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    min-height: 400px;
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+  /*--- Fixed Background Image --*/
+  figure {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0!important;
+  }
+  .fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #fixed {
+    background-image: url('img/mac.png');
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+  /*--- Bootstrap Padding Fix --*/
+  [class*="col-"] {
+      padding: 1rem;
+  }
