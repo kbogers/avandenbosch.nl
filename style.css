@@ -7,35 +7,6 @@ html, body{
     color: #151515;
   }
 
-/*typography*/
-h1{
-    font-family: 'Volkhov', serif;
-    font-weight: 900;
-    font-size: 64px;
-}
-h2{
-    font-family: 'Volkhov', serif;
-    font-weight: 600;
-    font-size: 32px;
-}
-h3{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 24px;
-}
-h4{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-}
-h5{
-    font-family: 'Roboto', sans-serif;
-}
-p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 16px;
-}
 .bg-purple{
     background-color: #1a173d;
   }
