@@ -156,6 +156,27 @@ html, body{
     margin-top: 50px;
 }
 
+/* Footer */
+
+.footer-icon{
+    color: #eaeaea;
+    font-size: 24px;
+    margin-top: 0.5em;
+}
+
+.icon-background{
+    background-color: #6e6aa3;
+    border-radius: 100%;
+    height: 3em;
+    width: 3em;
+    margin-top: -0.5em;
+    float: right;
+}
+
+.icon-background:hover{
+    background-color: #a09cd8;
+}
+
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
