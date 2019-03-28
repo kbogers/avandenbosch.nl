@@ -80,6 +80,7 @@ html, body{
 
 /* buttons */
 .btn-primary{
+    transition: all 0.2s;
     background-color: #373184;
     border: none;
     width: 200px;
@@ -90,9 +91,13 @@ html, body{
 }
 .btn-primary:hover{
     background-color: #6e6aa3;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 
 .btn-light{
+    transition: all 0.2s;
     background-color: transparent;
     border: 1px solid #eaeaea;
     width: 200px;
@@ -104,6 +109,9 @@ html, body{
 }
 .btn-light:hover{
     background-color: #eaeaea;
+    margin-top: 16px;
+    margin-bottom: 4px;
+
 }
 
 .navbar-toggler{

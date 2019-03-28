@@ -1,15 +1,14 @@
 h1{
     font-family: 'Volkhov', serif;
     font-weight: 900;
-    font-size: 64px;
+    font-size: 86px;
     margin-bottom: 0.5em;
 }
 h2{
     font-family: 'Volkhov', serif;
     font-weight: 600;
-    font-size: 32px;
-    margin-bottom: 1em;
-    letter-spacing: 0.1em;
+    font-size: 64px;
+    margin-bottom: 0,5em;
 }
 h3{
     font-family: 'Roboto', sans-serif;
