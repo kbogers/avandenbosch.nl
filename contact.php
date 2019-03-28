@@ -4,10 +4,10 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'Demo contact form <demo@domain.com>';
+$from = '<demo@domain.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <kbogers92@gmail.com>';
+$sendTo = '<kbogers92@gmail.com>';
 
 // subject of the email
 $subject = 'Een bericht uit het contactformulier op avandenbosch.nl';
@@ -23,11 +23,11 @@ $okMessage = 'Uw bericht is verzonden. Ik neem zo snel mogelijk contact met u op
 $errorMessage = 'Er is iets mis gegaan. Probeert u het later nog eens.';
 
 /*
- *  LET'S DO THE SENDING
+ *  SENDING
  */
 
 // if you are not debugging and don't need error reporting, turn this off by error_reporting(0);
-error_reporting(E_ALL & ~E_NOTICE);
+error_reporting(0);
 
 try
 {
@@ -73,3 +73,5 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 else {
     echo $responseArray['message'];
 }
+
+
