@@ -72,6 +72,12 @@ html, body{
     font-size: 18px;
 }
 
+/* Diensten */
+.diensten p{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
 /* buttons */
 .btn-primary{
     background-color: #373184;
@@ -108,7 +114,8 @@ html, body{
 }
 .fa-file-alt, .fa-money-bill-alt, .fa-user, .fa-edit{
     font-size: 6em;
-    padding-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 .footer{
     background-color: #151515;
